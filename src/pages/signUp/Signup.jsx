@@ -13,8 +13,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-function Signup(){
-    const theme = createTheme();
+function Signup() {
+  const theme = createTheme();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -23,11 +23,12 @@ function Signup(){
       email: data.get('email'),
       password: data.get('password'),
     });
-}
+  }
 
 
-    return(
-        <ThemeProvider theme={theme}>
+  return (
+    <div style={{ background: "#fff", width: "50%", margin: "0px auto" }}>
+      <ThemeProvider theme={theme}>
         <Container component="main" maxWidth="xs">
           <CssBaseline />
           <Box
@@ -115,6 +116,7 @@ function Signup(){
           {/* <Copyright sx={{ mt: 5 }} /> */}
         </Container>
       </ThemeProvider>
-    );
+    </div>
+  );
 }
 export default Signup;

@@ -5,12 +5,9 @@ import './dashboard.css'
 import FeedPost from './FeedPost.js';
 
 
-function dashboard(){
+function Dashboard(){
     return(
         <div className='dashboard' >
-            <Box className='nav'>
-                <h2>hooooooooooooooooooo</h2>
-            </Box>
         {/* // First left Side */}
         <Box className="rest">
 
@@ -29,8 +26,10 @@ function dashboard(){
             sx={{ 
                     backgroundColor:'pink',
                     flex:0.6,
+                    
             }}>
                 <h2 style={{textAlign:'center'}}>Home</h2>
+
                 <Divider style = {{backgroundColor: "white"}}/>
                 <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
                 <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
@@ -45,7 +44,9 @@ function dashboard(){
                 backgroundColor:'yellow',
                 flex:0.2
             }}>
-
+                <Box sx={{}}>
+                    <h2 style={{textAlign:'center'}}>Chats</h2>
+                </Box>
             </Box>
         </Box>
             
@@ -54,4 +55,4 @@ function dashboard(){
         
     );
 }
-export default dashboard;
+export default Dashboard;

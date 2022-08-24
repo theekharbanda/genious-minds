@@ -13,3 +13,9 @@
     position:fixed;
     background-color: antiquewhite;
 }
+.Feed{
+    overflow-y: scroll;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
