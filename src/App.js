@@ -16,8 +16,6 @@ import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import { Link, animateScroll as scroll } from "react-scroll";
 import mainphoto from './assets/11.jpg';
 
-
-
 function App() {
 
   return (
