@@ -1,0 +1,21 @@
+.rest{
+    display: flex;
+    flex-direction: row ;
+    /* justify-content: space-evenly; */
+}
+.dashboard{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    position:fixed;
+    background-color: antiquewhite;
+}
+.Feed{
+    overflow-y: scroll;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

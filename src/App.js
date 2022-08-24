@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import Signin from "./pages/signIn/SignIn.jsx";
 import Signup from "./pages/signUp/Signup.jsx";
-import { Dashboard } from "@mui/icons-material";
+import  Dashboard  from "./pages/dashboard/Dashboard.js";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
