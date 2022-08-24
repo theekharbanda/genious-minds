@@ -7,9 +7,9 @@ import FeedPost from './FeedPost.js';
 
 function dashboard(){
     return(
-        <div className='dashboard'>
-            <Box sx={{flexGrow:1,height:80,postion:'absolute'}} className='nav'>
-                
+        <div className='dashboard' >
+            <Box className='nav'>
+                <h2>hooooooooooooooooooo</h2>
             </Box>
         {/* // First left Side */}
         <Box className="rest">
@@ -32,7 +32,12 @@ function dashboard(){
             }}>
                 <h2 style={{textAlign:'center'}}>Home</h2>
                 <Divider style = {{backgroundColor: "white"}}/>
-                <FeedPost />
+                <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
+                <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
+                <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
+                <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
+                <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
+                <FeedPost name={"Naman Kharbanda"} username={"@thee_kharbanda"} avatar={"N"} story={"hey yaa"} />
                
             </Box>
             <Box className="Widgets" sx={{
