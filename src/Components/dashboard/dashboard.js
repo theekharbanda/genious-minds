@@ -2,6 +2,7 @@
 import{Box, CssBaseline,Divider} from '@mui/material';
 import { blue } from '@mui/material/colors';
 import './dashboard.css'
+import FeedPost from './FeedPost.js';
 
 
 function dashboard(){
@@ -13,7 +14,7 @@ function dashboard(){
         {/* // First left Side */}
         <Box className="rest">
 
-        <Box className="Sidebar" 
+            <Box className="Sidebar" 
             sx={{
                 
                 backgroundColor: 'blue',
@@ -31,7 +32,7 @@ function dashboard(){
             }}>
                 <h2 style={{textAlign:'center'}}>Home</h2>
                 <Divider style = {{backgroundColor: "white"}}/>
-                
+                <FeedPost />
                
             </Box>
             <Box className="Widgets" sx={{
